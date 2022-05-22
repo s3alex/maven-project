@@ -169,7 +169,7 @@ stage('build ') {
      stage('Docker push ') {
             steps {
                sh '''
-              docker push devopseasylearning2021/alex:$ImageTAG 
+              docker push devopseasylearning2021/eric:$ImageTAG 
                 '''
             }
         }
